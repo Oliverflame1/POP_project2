@@ -75,7 +75,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 5fabd1926b899324bbc0f56ffec2fadc, type: 2}
+    - target: {fileID: 1441324725532693083, guid: 971380c482bad0043b71d141bb6a688f, type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 25.15
+      objectReference: {fileID: 0}
     - target: {fileID: 2124691237467470106, guid: 971380c482bad0043b71d141bb6a688f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95901f9d43b5c0d4b956f326d7c5ec87, type: 2}
+    - target: {fileID: 2197724097710168407, guid: 971380c482bad0043b71d141bb6a688f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 95901f9d43b5c0d4b956f326d7c5ec87, type: 2}

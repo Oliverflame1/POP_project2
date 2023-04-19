@@ -15,7 +15,7 @@ C:/Users/cfb06/Fruit Ninja
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58918
+60594
 Successfully changed project path to: C:/Users/cfb06/Fruit Ninja
 C:/Users/cfb06/Fruit Ninja
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/cfb06/Fruit Ninja
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25756] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 291553271 [EditorId] 291553271 [Version] 1048832 [Id] WindowsEditor(7,Oliver) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27436] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 311723820 [EditorId] 311723820 [Version] 1048832 [Id] WindowsEditor(7,Oliver) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25756] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 291553271 [EditorId] 291553271 [Version] 1048832 [Id] WindowsEditor(7,Oliver) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27436] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 311723820 [EditorId] 311723820 [Version] 1048832 [Id] WindowsEditor(7,Oliver) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 56.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,96 +67,96 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006629 seconds.
+Registered in 0.003872 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1742 ms
+Android Extension - Scanning For ADB Devices 215 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.269 seconds
+- Completed reload, in  0.771 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2270ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2122ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (1990ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (426ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1807ms)
+				InitializePlatformSupportModulesInManaged (279ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004353 seconds.
+Registered in 0.002950 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\cfb06\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\cfb06\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (699ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (262ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3513.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 2.598900 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.244300 ms  DeleteObjects: 0.115500 ms)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3514.
+Memory consumption went from 112.2 MB to 112.1 MB.
+Total: 2.592600 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.214400 ms  DeleteObjects: 0.136600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,7 +171,316 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24577.125962 seconds.
+  Time since last request: 30483.221910 seconds.
+  path: Assets/Prefabs/Orange.prefab
+  artifactKey: Guid(be1e08230b408c74d9ec2dd31204ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Orange.prefab using Guid(be1e08230b408c74d9ec2dd31204ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637d3e04863d453ddb40b4e761faf404') in 0.107561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Lemon.prefab
+  artifactKey: Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lemon.prefab using Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a286dac2f9a0c1b4a62a974787ece114') in 0.015422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(34cac085d5ccd6543ac5c3637086fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(34cac085d5ccd6543ac5c3637086fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b0e9e6fb942273309f882a36143da0') in 0.014642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.605992 seconds.
   path: Assets/Prefabs/Fruit_Base.prefab
   artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b81aeaf199280ed9196f243a4501739') in 0.102633 seconds 
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecf643c2ac65fa6a63adb08d59dc125') in 0.016120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199d24481d57ecd3ab2d003de1837be2') in 0.018639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.746836 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a497cd30d494830485b10993100197') in 0.036351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3312955a6d9cccf1b9dad8fb5bf69fc') in 0.016224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.301271 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e61f08f290949319cd8d9c32edfb5f3') in 0.095409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cda5f9f350a4bf9600b01a7f533131') in 0.017625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.302859 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb792203c5903ac7e4e9e8097ca94b7') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711df70a954b9e63d93b7549134cbaf3') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.525348 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290bbfa1fcb65fcc4ac3bd3e76be2aa2') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f42e97efe8d53d00fddbc73b1da55') in 0.015813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.874734 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ed1922d26adabbe2dfc9f5466f55d') in 0.054100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47146f5b15b3775f8136fb551deca7f4') in 0.068989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005171 seconds.
+  path: Assets/Prefabs/Lemon.prefab
+  artifactKey: Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lemon.prefab using Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e72d43b4cfa27278bd33a510a1da46') in 0.016402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176752 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92b57f3d0996db343ed525bdab361ad') in 0.011637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d558c90558edd2c33d205b44ba647d0') in 0.013272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.180132 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b3a55df705cdabe027a75c3644df06') in 0.023766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd3b999e13bf004f7e2df6e76db092e') in 0.012521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.591225 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72c86118143d9f45f8235b4d2bff744') in 0.016803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69415b4ef22226986be4d7d4de399a') in 0.016728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.942591 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e8e7d659049eb0bf64fe07bf4d7511') in 0.011997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55cfcb1ee6c656981fd70c2b1c9bd88') in 0.015456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.342982 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac908670f5cd5b403f456697c42a906') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf968b56d471038335bdb007f110b2e1') in 0.017855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.574852 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f9cb3d64a839eed17cf0c16e49b7cc') in 0.015577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd6f585965142cfc6b06dc0fc0cc4d4') in 0.012304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.675160 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73930f89ed3ed4cc88d2a1518f59a3bb') in 0.014752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e118e69fe9d26aa1d2d5e7f91c57502') in 0.018421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.618690 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9f26fb7fb4eef376fa4e7d49ba7ca5') in 0.199674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d059af6776988ab77e5048a896ba85') in 0.011206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.558615 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca9308dd2cbdeff33b984913c79774a') in 0.011321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545b9a726e1451969b370313bb5f422') in 0.020966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.592703 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6a9d6e10c192c201322c0a1df2a07b') in 0.046705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Lemon.prefab
+  artifactKey: Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lemon.prefab using Guid(187ceedf9c1db7a4cb2111bb462bf627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a524c05715aa21d7d6a365ac0d0b64') in 0.012002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.203781 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c435dbdd95e268a8ff7cb1700e0f0eb7') in 0.012518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872aa1513feaf0a65d57039c40f58eb8') in 0.019416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.618013 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2cae6f09a996aae1b6e40537b4a273') in 0.016203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b13bb0c84fc5da9b614f469b79f752') in 0.013896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.386115 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(971380c482bad0043b71d141bb6a688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e8138f1ed30a8ace53e7e79f15e920') in 0.057969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(9e4fcbd50bc02c54caf9626e631636c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0198420177a0bd90ca5c326fdeca4e') in 0.009572 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004401 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cfb06\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cfb06\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (81.8 KB). Loaded Objects now: 3526.
+Memory consumption went from 116.6 MB to 116.5 MB.
+Total: 2.204200 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.897100 ms  DeleteObjects: 0.079800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
