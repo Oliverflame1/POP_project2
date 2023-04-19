@@ -80,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whole: {fileID: 467414609264744655}
   sliced: {fileID: 467414608041538443}
+  slicedFruit: {fileID: 11400000, guid: 3638c7e729e4d9f45994ce0b91d60ff8, type: 2}
 --- !u!1 &6025724298413425459
 GameObject:
   m_ObjectHideFlags: 0

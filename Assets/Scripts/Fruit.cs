@@ -5,15 +5,20 @@ public class Fruit : MonoBehaviour
   public GameObject whole;
   public GameObject sliced;
 
+  public VoidEventChannel slicedFruit;
+
   private Rigidbody fruitRigidbody;
   private Collider fruitCollider;
   private ParticleSystem juiceParticleEffect;
+
+  
 
   private void Awake()
   {
     fruitRigidbody = GetComponent<Rigidbody>();
     fruitCollider = GetComponent<Collider>();
     juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
+    
   }
 
   private void Slice(Vector3 direction, Vector3 position, float force)
@@ -45,6 +50,9 @@ public class Fruit : MonoBehaviour
       {
         Blade blade = other.GetComponent<Blade>();
         Slice(blade.direction, blade.transform.position, blade.sliceForce);
+        slicedFruit.RaiseEvent();
       }
     }
+
+   
 }

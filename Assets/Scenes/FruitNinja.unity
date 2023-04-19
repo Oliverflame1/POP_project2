@@ -977,6 +977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sliceForce: 5
   minSliceVelocity: 0.01
+  slicedFruit: {fileID: 11400000, guid: 3638c7e729e4d9f45994ce0b91d60ff8, type: 2}
+  textPrefab: {fileID: 4707433722331676967, guid: eda74357a8b8d6e40933cf6958820f2d, type: 3}
 --- !u!4 &1787950910
 Transform:
   m_ObjectHideFlags: 0
